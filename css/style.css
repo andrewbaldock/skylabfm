@@ -310,8 +310,8 @@ footer #credits {
     padding-bottom: 8px;
     background-color: rgba(3, 191, 238, 0.40);
 }
-footer #credits a {
-    color:#ddd;
+footer #credits a:hover {
+    color:#FF00B8;
 }
 footer #pad {
     width: 100%;
@@ -495,7 +495,7 @@ em#userimg {
         width:910px;
     }
 }
-@media only screen and (min-width: 767px) and (max-width: 959px) {
+@media only screen and (min-width: 791px) and (max-width: 959px) {
     #results {
         width:795px;
     }
@@ -503,7 +503,7 @@ em#userimg {
         width:760px;
     }
 }
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 790px) {
     #results {
         width:650px;
     }
@@ -520,7 +520,7 @@ em#userimg {
         line-height:22px;
     }
 }
-@media only screen and (min-width: 628px) and (max-width: 766px) {
+@media only screen and (min-width: 628px) and (max-width: 790px) {
     #results {
         width:628px;
         margin-left:-12px;

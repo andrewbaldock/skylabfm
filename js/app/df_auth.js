@@ -1,4 +1,4 @@
-/* github.com/andrewbaldock/soundora */
+/* github.com/andrewbaldock/skylabfm */
 
 define(["jquery", "json2"], function($) {
   aB.fn.df_auth = function() {

@@ -47,13 +47,13 @@ define(["jquery", "underscore", "app/df_auth", "json2", "player", "backbone", "a
       aB.fn.soundcloud();
       aB.fn.df_auth();
 
-(function waitForDF() {
-    if ( aB.sessionId ) {
-        aB.fn.Searches();
-    } else {
-        setTimeout( waitForDF, 1000 );
-    }
-})();
+		(function waitForDF() {
+		    if ( aB.sessionId ) {
+		        aB.fn.Searches();
+		    } else {
+		        setTimeout( waitForDF, 300 );
+		    }
+		})();
 
 
 
